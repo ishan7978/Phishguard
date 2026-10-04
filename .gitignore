@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+
+# Runtime scan history
+backend/data/scan_history.json
+
+# Temporary files
+*.tmp
+.DS_Store
+backend/scan_history.json
